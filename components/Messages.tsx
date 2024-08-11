@@ -18,7 +18,7 @@ export const Messages = ({ messages }: MessagesProps) => {
       ) : (
         <div className="flex flex-1 flex-col items-center justify-center gap-2">
           <MessageSquare className="size-8 text-blue-500" />
-          <h3 className="fonrt-semibold text-xl text-white">You're all set!</h3>
+          <h3 className="fonrt-semibold text-xl text-white">{"You're all set!"}</h3>
           <p className="text-zinc-500 text-sm">
             Ask your fist question to get started.
           </p>
